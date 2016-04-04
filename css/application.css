@@ -1,0 +1,25 @@
+.container #landing_page {
+  width: 50%;
+  display: block;
+  margin-top: 30%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto; }
+  .container #landing_page img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px; }
+  .container #landing_page .form-signin h2, .container #landing_page .form-signin p {
+    text-align: center; }
+  .container #landing_page .form-signin input {
+    width: 40%;
+    float: left;
+    margin: 0 5px; }
+
+@media only screen and (max-width: 1000px) {
+  .container #landing_page .form-signin input {
+    width: 100%;
+    margin: 5px 10px; } }
