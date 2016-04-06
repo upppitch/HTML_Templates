@@ -35,18 +35,20 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .container{ 
-      #landing_page{ 
+  .container{ 
+    #landing_page{ 
 
-        .form-signin{
+      .form-signin{
 
-          input{
-            width: 100%;
-            margin: 5px 10px;
-          }
-
+        input{
+          width: 100%;
+          margin: 5px 10px;
         }
 
       }
+
     }
+  }
 }
+
+@import "applicant.scss"
