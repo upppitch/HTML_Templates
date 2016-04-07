@@ -1,56 +1,69 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<html>
+<head>
+  <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="css/application.css" rel="stylesheet">
+    <title>PitchUpp</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
 
-    <title>PITCHUPP | Welcome</title>
+  <div class="landing_page">
+    <!-- Start of Sign In Page-->
+    <div class="valign-wrapper" id="landing_wrapper">
 
-    <!-- Bootstrap core CSS -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-    <!-- Custom css styling -->
-    <link rel="stylesheet" type="text/css" href="css/application.css">
+      <div class="row" id="landing_border">
+        <img src="images/logo-white.png" width="50%">
+        <h5 class="valign"
+        >Something <strong>really good<strong> is coming <br> and it's coming <strong>fast</strong>.
+        </h3>
+        <h6 class="valign">
+        <small>An innovative new way of applying for jobs, and hiring new candidates.</small>
+        </h6>
 
-  </head>
-
-  <body>
-
-    <div class="container">
-      <!--Loading page-->
-      <div id="landing_page">
-
-        <!-- Image Logo -->
-        <img src="images/welcome_logo.png">
-
-        <!-- Form For Log In -->
-        <form class="form-signin">
-          <h2 class="form-signin-heading">Something <strong>really good</strong> is coming, <br>
-          and it's coming <strong>fast</strong>.</h2>
-          <p>An <strong>innovative</strong> new way of applying for jobs; and hiring new candidates. <br>
-          Sign up now!!!! or log in to see more <strong>opportunities</strong></p>
-          <label for="inputEmail" class="sr-only">Email address</label>
-          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-          <label for="inputPassword" class="sr-only">Password</label>
-          <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-          <div class="checkbox">
+        <form class="col s12" id="landing_form">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
           </div>
-          <button  type="submit">Sign in</button>
-        </form>
-        <!-- Add Sign up link -->
-        <div id="landing_signup">
-          <a href="#">Sign up</a>
-        </div>
-      </div>
-      <!-- End of loading page -->
-    </div> <!-- /container -->
+          
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  </body>
+          <button class="btn waves-effect waves-light" type="submit" name="action" id="btn_login">Log In
+          </button>
+
+          <button class="btn waves-effect waves-light" type="submit" name="action" id="btn_signup">Sign Up
+          </button>
+
+        </form>
+      </div>
+    </div>
+    <!-- End of Sign In Page -->
+  </div>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
 </html>

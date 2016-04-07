@@ -1,67 +1,29 @@
-.container #landing_page {
-  width: 50%;
-  display: block;
-  margin-top: 50%;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto; }
-  .container #landing_page img {
-    width: 60%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 60px; }
-  .container #landing_page .form-signin h2, .container #landing_page .form-signin p {
+.landing_page #landing_wrapper {
+  position: absolute;
+  /* or absolute */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/city.jpg);
+  background-repeat: no-repeat; }
+  .landing_page #landing_wrapper #landing_border #landing_form {
+    width: 65%;
+    margin-left: 18%; }
+  .landing_page #landing_wrapper #landing_border img {
+    margin-left: 22%; }
+  .landing_page #landing_wrapper #landing_border h5, .landing_page #landing_wrapper #landing_border h6 {
     text-align: center; }
-  .container #landing_page .form-signin input {
-    width: 40%;
-    float: left;
-    margin: 0 5px; }
-
-@media only screen and (max-width: 1000px) {
-  .container #landing_page .form-signin input {
-    width: 100%;
-    margin: 5px 10px; } }
-.applicant_content .applicant_pitch {
-  width: 85%;
-  float: left;
-  overflow: hidden; }
-  .applicant_content .applicant_pitch nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333; }
-  .applicant_content .applicant_pitch nav li {
-    float: right; }
-  .applicant_content .applicant_pitch nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none; }
-  .applicant_content .applicant_pitch nav li a:hover {
-    background-color: #111; }
-  .applicant_content .applicant_pitch #pitch_video {
-    width: 100%;
-    height: 100%; }
-.applicant_content .applicant_profile {
-  width: 15%;
-  float: left;
-  overflow: hidden; }
-  .applicant_content .applicant_profile img {
-    width: 100%; }
-  .applicant_content .applicant_profile #profile #caption h3, .applicant_content .applicant_profile #profile #caption h5 {
-    text-align: center; }
-  .applicant_content .applicant_profile #info {
-    position: absolute;
-    height: 50%; }
-    .applicant_content .applicant_profile #info p {
-      width: 100%;
-      border-top: 1px solid blue;
-      height: 60px;
-      padding: 10%;
-      text-align: center; }
+  .landing_page #landing_wrapper #landing_border h5 {
+    color: orange; }
+  .landing_page #landing_wrapper #landing_border h6 {
+    color: white; }
+  .landing_page #landing_wrapper #landing_border #btn_signup {
+    float: right;
+    width: 35%;
+    margin-right: 20px; }
+  .landing_page #landing_wrapper #landing_border #btn_login {
+    margin-left: 20px;
+    width: 35%; }
 
 /*# sourceMappingURL=application.css.map */
