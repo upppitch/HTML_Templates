@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEE,kDAAY;EACX,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,GAAG;EAChB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;AAGpB,8CAAQ;EACP,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,GAAG;AAGjB,iDAAW;EACV,WAAW,EAAE,GAAG",
+"sources": ["../sass/applicant.scss"],
+"names": [],
+"file": "applicant.css"
+}
